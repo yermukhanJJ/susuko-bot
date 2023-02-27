@@ -1,0 +1,11 @@
+2023-02-27 13:41:06 - Starting DispatcherApplication using Java 17.0.1 on DESKTOP-SGTGKH7 with PID 13972 (C:\Users\User\Desktop\susuko\dispatcher\target\classes started by User in C:\Users\User\Desktop\susuko)
+2023-02-27 13:41:06 - No active profile set, falling back to 1 default profile: "default"
+2023-02-27 13:41:07 - Tomcat initialized with port(s): 8084 (http)
+2023-02-27 13:41:07 - Initializing ProtocolHandler ["http-nio-8084"]
+2023-02-27 13:41:07 - Starting service [Tomcat]
+2023-02-27 13:41:07 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-27 13:41:07 - Initializing Spring embedded WebApplicationContext
+2023-02-27 13:41:07 - Root WebApplicationContext: initialization completed in 1109 ms
+2023-02-27 13:41:08 - Starting ProtocolHandler ["http-nio-8084"]
+2023-02-27 13:41:08 - Tomcat started on port(s): 8084 (http) with context path ''
+2023-02-27 13:41:08 - Started DispatcherApplication in 2.964 seconds (JVM running for 4.459)
