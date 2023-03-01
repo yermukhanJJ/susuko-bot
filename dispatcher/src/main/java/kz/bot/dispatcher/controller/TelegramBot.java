@@ -2,6 +2,7 @@ package kz.bot.dispatcher.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -18,6 +19,11 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     private final UpdateController updateController;
 
+    @Value("${bot.name}")
+    private String botName;
+
+    @Value("${bot.token}")
+    private String token;
 
     @PostConstruct
     public void init() {
@@ -26,12 +32,13 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "SusukoBot";
+        return botName;//"SusukoBot";
     }
 
     @Override
     public String getBotToken() {
-        return "5784964304:AAFcK0owyXLuyecfs017CzfhSf1oCOjfRzI";
+
+        return token;//"5784964304:AAFcK0owyXLuyecfs017CzfhSf1oCOjfRzI";
     }
 
     @Override
